@@ -83,13 +83,13 @@ li a.active {
 }
 
 li a:hover:not(.active) {
-  background-color: lightpink;
+  background-color: hotpink;
   color: white;
 }
 
 :root {
-  --img-width: 600px;
-  --img-height: 500px;
+  --img-width: 50vw;
+  --img-height: 60vh;
 }
 
 .carousel {
@@ -148,3 +148,99 @@ h1{
     margin-bottom: 0;
     text-shadow: 2px 2px black;
 }
+
+.cowboys-about{
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  text-shadow: 2px 2px blue;
+}
+
+/* Footer Start */
+#footer .column{
+  flex-grow: 1;
+   
+   
+ 
+ }
+ .footer-groups{
+   display: flex;
+   justify-content: space-between;
+  
+ }
+ #footer{
+   
+   font-size: 25px;
+   padding-top: 20px;
+   color: silver;
+   text-shadow: 2px 2px  black;
+   padding: 80px;
+   background-image: url(https://wallpapercave.com/wp/wp2770319.jpg);
+   background-size: cover;
+   border-left: red;
+   border-right: red;
+   
+ }
+ #footer ul{
+   list-style: none;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: bold;
+ 
+ }
+ #footer li{
+   margin: 15px;
+   transition: all .2s ease-in-out;
+ 
+ }
+ #footer li:hover{
+   cursor: pointer;
+   text-shadow: 1px 1px var(--color-white);
+   margin: 15px;
+   font-size:35px ;
+ 
+ }
+ .footer-groups>div:nth-child(2){
+   text-align: center;
+ }
+ 
+ .footer-groups>div:nth-child(3){
+   text-align: right ;
+ 
+  
+ }
+ 
+ .footer-groups>div:nth-child(1) .hr-container{
+   text-align: center;
+   justify-content: flex-start;
+ }
+ .footer-groups>div:nth-child(2) .hr-container{
+   text-align: center;
+   justify-content: center;
+ }
+ 
+ .footer-groups>div:nth-child(3) .hr-container{
+   text-align: right ;
+   justify-content: flex-end;
+  
+ }
+ 
+ .footer-groups>div{
+   padding: 0 50px;
+ }
+ #footer .column hr{
+   display: block; height: 1px;
+     border: 0; border-top: 1px solid  var(--color-red);
+     margin: 1em 0; padding: 0;
+     width: 100px;
+ 
+ }
+ 
+ .hr-container {
+   display: flex;
+   justify-content: flex-end;
+ }
+ #footer .footer-groups>div:nth-child(2) li{
+   margin-bottom: 30px;
+   text-align: center;
+ }
+ 
