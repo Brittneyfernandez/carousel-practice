@@ -151,9 +151,11 @@ h1{
 
 .cowboys-about{
   color: white;
-  padding: 20px;
+  padding: 20px 100px;
   font-size: 20px;
   text-shadow: 2px 2px blue;
+  background-color:rgba(0, 0, 0, .4);
+  
 }
 
 /* Footer Start */
@@ -247,4 +249,43 @@ h1{
  .table table-borderless{
    height: 100px;
  }
+ .card-2{
+   margin-top: 50px;
+   width: 700px;
+   margin-left: calc(50% - 400px);
+   position: relative;
+ }
+
+ .game-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .game-card .card {
+  border: none;
+ }
+ 
+ .game-card img {
+   width: 140px;
+   object-fit: cover;
+   text-align: center;
+ }
+ .game-card .card-text {
+   text-align: center;
+ }
+
+ .vs {
+   position: absolute;
+   left: calc(50% - 350px);
+   text-align: center;
+   font-size: 25px;
+ }
+ 
+ #game-schedule .table-heading {
+
+  text-align: center;
+  font-size: 40px;
+ }
+
  
